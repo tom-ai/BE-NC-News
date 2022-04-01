@@ -4,7 +4,7 @@ Link To Hosted Version:
 
 ## What is this project?
 This project is the backend API of TH News, a reddit-style news app that allows users to read, like and comment on articles. 
-It is built using Express, and the endpoints and routing allow for the frontend to connect with the database.
+The backend is built with Express, with the endpoints and routing allowing for the frontend to connect with the database.
 
 ## Cloning
 1. Navigate to a local directory in your CLI (e.g. Terminal) 
