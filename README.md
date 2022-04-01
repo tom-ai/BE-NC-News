@@ -27,5 +27,4 @@ You will need to create two `.env` files with some text inside:
 2. `development.env` with `PGDATABASE=nc_news`
 For security, add the filenames to your `.gitignore` file
 ### Run tests
-To run the tests, run the following command:
-`npm test __tests__/app.test.js`
+To run the tests, run `npm test __tests__/app.test.js`
