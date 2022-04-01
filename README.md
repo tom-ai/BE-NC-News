@@ -21,10 +21,10 @@ Postgres - `14.2`
 ### Seed the local database
 The database will first need to be seeded with data. To do this, run `npm run seed` in the CLI
 ### Use different data sets
-There are two sets of data included: test and development. When running the test suites, test data is seeded and the test database is used.
-You will need to create two `.env` files with some text inside:
-1. `test.env` with with `PGDATABASE=nc_news_test`
-2. `development.env` with `PGDATABASE=nc_news`
+There are two sets of data included: test and development. In production, the development database is used, and for testing, the test database will be used.
+For the necessary databases to be used, create some routing by making the following files in your route directory:
+1. A `test.env` file with `PGDATABASE=nc_news_test` inside
+2. A `development.env` file with `PGDATABASE=nc_news`
 For security, add the filenames to your `.gitignore` file
 ### Run tests
 To run the tests, run `npm test __tests__/app.test.js`
